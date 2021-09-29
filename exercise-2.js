@@ -8,3 +8,12 @@ function star(arr) {
 	
 }
 star([["*"], ["**"], ["***"], ["****"], ["*****"]]);
+
+// for (let line = 0; line < 5; line++) {
+// 	let character = "*"
+// 	for (let col = 0; col < line; col++) {
+//       character += "*"
+// 	}
+// 	console.log(character)
+// 	console.log("\n")
+// }
