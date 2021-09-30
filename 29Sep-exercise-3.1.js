@@ -18,15 +18,28 @@ while (number < 100) {
 
 // Exercise-3 Part-3
 
-let x = 1
-
 function myFunction(n) {
+	let x = 1
 	while (n >= x) {
 		console.log([x])
 		x++
 	}
 }
 myFunction(6)
+
+// Ex3 part3
+// const printN = (n) => {
+// 	let index = 1
+// 	let result = ""
+// 	while(index <= n){
+// 		// console.log("[" + index + "]")
+// 		result += `[${index}]`
+// 		index ++
+// 	}
+// 	console.log(result)
+// }
+
+// printN(6)
 
 // const printN = (n) => {
 // 	let index = 1
