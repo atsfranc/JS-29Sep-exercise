@@ -28,4 +28,26 @@ function myFunction(n) {
 }
 myFunction(6)
 
+// const printN = (n) => {
+// 	let index = 1
+// 	while (index<=n) {
+// 		console.log(`[${index}]`)
+// 		index++
+// 	}
+// }
+// printN(6)
+
 // Exercise-3 Part-4
+const sumPositiveNumber = (n) => {
+	if (n < 0) {
+		return n
+	}
+	let sum = 0
+	let index = 1
+	while (index<=n) {
+		sum += index
+		index++
+	}
+	return sum
+}
+console.log(sumPositiveNumber(5))
